@@ -1,4 +1,4 @@
-# optimism-dao-vbe
+# DAO-VBE-Library
 This repo is a quickstart to easily calculate the Voting-Bloc Entropy (VBE) metric on Optimism data, which showcases how decentralized voting blocs are in an organization (higher VBE = greater decentralization).
 
 In this repo, the below scripts provide the following functions:
