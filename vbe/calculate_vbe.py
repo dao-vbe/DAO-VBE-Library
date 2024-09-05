@@ -31,7 +31,7 @@ def get_args():
     parser.add_argument('--save_data', type=str, default='Y', help='Flag to save parameters and VBE')
     parser.add_argument('--save_clusters', type=str, default='N', help='Flag to save clusters and labels')
     parser.add_argument('--save_cluster_path', type=str, default=os.path.join(os.pardir, 'results', 'cluster_data.csv'), help='Path for saving cluster data')
-    parser.add_argument('--path', type=str, default=os.path.join(os.pardir, 'data', 'rpgf3_anon_walletlevel_data.csv'), help='Path for data')
+    parser.add_argument('--path', type=str, default=os.path.join(os.pardir, 'data', 'dummy_data.csv'), help='Path for data')
     
     args = parser.parse_args()
     return args
